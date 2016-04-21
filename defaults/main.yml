@@ -1,0 +1,7 @@
+mediawiki_user: www
+mediawiki_group: www
+mediawiki_log_dir: /var/log/mediawiki
+mediawiki_db_dir: "{{ __mediawiki_db_dir }}"
+mediawiki_service: mediawiki
+mediawiki_conf: "{{ __mediawiki_conf }}"
+mediawiki_flags: ""

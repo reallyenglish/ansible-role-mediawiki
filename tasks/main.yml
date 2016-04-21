@@ -1,0 +1,19 @@
+---
+# tasks file for ansible-role-mediawiki
+
+- include_vars: "{{ ansible_os_family }}.yml"
+
+- include: install-FreeBSD.yml
+  when: ansible_os_family == 'FreeBSD'
+
+# - name: Create mediawiki.conf
+#   template:
+#     src: mediawiki.conf.j2
+#     dest: "{{ mediawiki_conf }}"
+#   notify: Restart mediawiki
+
+# - name: Start mediawiki
+#   service:
+#     name: "{{ mediawiki_service }}"
+#     enabled: true
+#     state: started

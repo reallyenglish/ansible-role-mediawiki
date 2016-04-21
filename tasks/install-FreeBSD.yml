@@ -1,0 +1,6 @@
+---
+
+- name: Install mediawiki
+  pkgng:
+    name: mediawiki126
+    state: present

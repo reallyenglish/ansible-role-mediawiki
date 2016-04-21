@@ -1,0 +1,2 @@
+__mediawiki_db_dir: /var/db/mediawiki
+__mediawiki_conf: /usr/local/etc/mediawiki.conf
