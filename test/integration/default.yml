@@ -1,5 +1,0 @@
-- hosts: all
-  roles:
-    - ansible-role-mediawiki
-  vars:
-    CHANGEME_config: ""
