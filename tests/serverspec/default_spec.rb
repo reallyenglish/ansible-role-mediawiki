@@ -12,7 +12,7 @@ package = "mediawiki"
 
 case os[:family]
 when "freebsd"
-  package = "mediawiki126"
+  package = "mediawiki129"
 end
 
 describe package(package) do
